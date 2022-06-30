@@ -12,25 +12,69 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/png" href="images/favicon.ico"/>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
+
+    <!--Navbar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar navbar-dark bg-dark">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">Breathe | Read | Write</a>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link fss-nav-item" onclick="scrollTo('#part1')" href="#">Upcoming Events</a>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fss-nav-item" onclick="scrollTo('#part2')" href="#">About BreatheReadWrite</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fss-nav-item" onclick="scrollTo('#part3')" href="#">About Lisa</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link fss-nav-item" onclick="scrollTo('#part4')" href="#">More</a>
+          </li>
+
+    <!-- Collapsible content -->
+  
+  </nav>
+  <!--/.Navbar-->
+  <div id="part1" class="section part1">
+    <p><br><br><br></p>
     <h1>Breathe | Read | Write</h1>
     <h2>A Meditation and Free-Writing Circle</h2>
-    <div class="textbox1">
-    <p><i><strong>"BRW blows my mind. It&rsquo;s amazing what comes out of my pen so naturally."</i> ~ June Fortess</strong></p>
     <p><br></p>
+    <p class="quote"><i><strong>"BRW blows my mind. It&rsquo;s amazing what comes out of my pen so naturally."</i> ~ June Fortess</strong></p>
+    <p><br></p>
+    <div class="floatbox-a">
     <h3>What happens in a BRW Circle?</h3>
     <ul>
-    <li>  Short meditations to free the mind;</li>
-      <li>   Timed, prompted free-writing;</li>
+            <li>  Short meditations to free the mind;</li>
+          <li>   Timed, prompted free-writing;</li>
           <li>Optional sharing and supportive responses that cultivate connection</li>
+    
 
+             </ul>
+        </div>
+</div>
 
-    </ul>
-    <p><br></p>
+<div id="part2" class="section part2">
+
 
     <h3>Upcoming offerings:</h3>
     <ul>
@@ -40,13 +84,24 @@
 <li> One-on-one coaching and more!</li>
 </ul>
     <p>
+</div>
+
+<div id="part3" class="section part3">
+
+
         <h3>About BreatheReadWrite</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos explicabo porro, quaerat distinctio laboriosam cumque cum quibusdam exercitationem officia veniam. Corporis dolorem repellendus adipisci nisi cumque corrupti minima voluptatem fugiat?</p>
+       
+  </div>
+
+  <div id="part4" class="section part4">
+
+       
         <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
             Read about Lisa...
         </button>
     </p>
-<div id="collapseExample" class="collapse, aboutLisa" aria-expanded="false">
+<div id="collapseExample" class="collapse aboutLisa" aria-expanded="false">
     <div>
         <div class="imgborder">
             <img src="images/lisa.png">
@@ -57,9 +112,16 @@
     </div>
     </div>
     <p><br></p>
-    <p class="footer">Check out the Roots/Trunk/Sky Anthology at the <a href="https://www.iwwg.org/">IWWG</a> book fair!</p>
-    <p class="footer">BreatheReadWrite.com &middot; (917) 319-4100 &middot; <a href="mailto:LisaBFreedman@gmail.com">LisaBFreedman@gmail.com</a></p>
+    <div class="footer">
+    <img src="images/tree.svg" class="smalltree">
+    <p>Check out the Roots/Trunk/Sky Anthology at the <a href="https://www.iwwg.org/">IWWG</a> book fair!<br>
+    BreatheReadWrite.com &middot; (917) 319-4100 &middot; <a href="mailto:LisaBFreedman@gmail.com">LisaBFreedman@gmail.com</a></p>
 </div>
+</div>
+</div>
+
+
+
 <script src="main.js"></script>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
