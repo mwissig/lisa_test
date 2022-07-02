@@ -80,6 +80,7 @@ img {
   background-color: white;
   padding: 5px 15px;
 border-radius: 10px;
+box-shadow: 2px 2px 2px black;
 }
 li{
   margin-left:2em;
@@ -120,6 +121,7 @@ opacity: 75%;
   padding: 20px;
 }
 .floatbox-a {
+  margin: 0 auto;
   right: 3em;
   position: relative;
   text-align: left;
