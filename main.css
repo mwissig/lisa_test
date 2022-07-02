@@ -111,6 +111,12 @@ button {
   background-size: contain;
 opacity: 75%;
 }
+.subsection {
+  padding: 3em;
+  width: calc(100%-6em);
+  height: calc(100%-6em);
+  margin: 0 auto;
+}
 .box2 {
   background-color: rgba(255, 255, 255, 0.8) !important;
 }
@@ -128,7 +134,15 @@ opacity: 75%;
   max-width: 50%;
   color: white;
 }
-
+.floatbox-b {
+  margin: 0 auto;
+  right: 3em;
+  position: relative;
+  text-align: left;
+  max-width: 50%;
+  color: black;
+  font-size: 40px;
+}
 .quote {
   color: white;
 }
